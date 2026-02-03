@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="order-form-container">
+        <header>
+            <h1>ORDER FORM</h1>
+            <div class="date-field">DATE: <span class="line"></span></div>
+        </header>
+
+        <div class="customer-info">
+            <div class="left-col">
+                <div class="input-group">
+                    <label>CUSTOMER NAME</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>EMAIL</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>PHONE</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="address-box">
+                    <span>ADDRESS</span>
+                </div>
+            </div>
+        </div>
+
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th style="width: 10%;">NO.</th>
+                    <th style="width: 35%;">DESCRIPTION</th>
+                    <th style="width: 10%;">QTY</th>
+                    <th style="width: 15%;">PRICE</th>
+                    <th style="width: 15%;">DISC</th>
+                    <th style="width: 15%;">TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+        </table>
+
+        <div class="footer-info">
+            <div class="footer-left">
+                <div class="footer-row">
+                    <label>PAYMENT METHOD:</label> <input type="text">
+                </div>
+                <div class="footer-row">
+                    <label>ACCOUNT NUMBER:</label> <input type="text">
+                </div>
+                <div class="footer-row">
+                    <label>SHIPPING METHOD:</label> <input type="text">
+                </div>
+                <div class="footer-row tracking">
+                    <label>TRACKING NUMBER:</label> 
+                    <div class="tracking-inputs">
+                        <input type="text" class="long">
+                        <label>SHIPPED:</label>
+                        <input type="text" class="short">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="summary-row"><label>SUBTOTAL:</label> <input type="text"></div>
+                <div class="summary-row"><label>TAX:</label> <input type="text"></div>
+                <div class="summary-row"><label>SHIPPING FEE:</label> <input type="text"></div>
+                <div class="summary-row"><label>DISCOUNT:</label> <input type="text"></div>
+                <div class="summary-row"><label>TOTAL:</label> <input type="text"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
